@@ -1,0 +1,48 @@
+name: test_ss_and_fonts_2
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: 6.1.0
+  share_plus: ^7.2.2
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Black.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-ExtraLight.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Light.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Thin.ttf
